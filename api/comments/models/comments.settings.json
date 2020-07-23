@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "comments",
+  "info": {
+    "name": "Comments"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "message": {
+      "type": "text"
+    },
+    "email": {
+      "type": "email"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}
